@@ -104,6 +104,7 @@ section {
    border-radius: 30px;
    text-decoration: none;
    font-weight: bold;
+   transition: all 0.3s ease;
 }
 
 .cta-button:hover {
