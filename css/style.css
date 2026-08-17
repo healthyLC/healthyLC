@@ -108,7 +108,7 @@ section {
 
 .cta-button:hover {
    background-color: var(--forest);
-   color: var (--white);
+   color: var(--white);
 }
 
 /* =========================
