@@ -32,3 +32,8 @@ footer {
     font-size: 28px;
     margin-top: 0;
 }
+
+.services {
+    display: flex;
+    gap: 20px;
+}
