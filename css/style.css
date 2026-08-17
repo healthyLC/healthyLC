@@ -8,3 +8,7 @@ h1 {
     font-size: 48px;
     text align: center;
 }
+section {
+    max-width: 800px;
+    margin: 60px auto;
+}
