@@ -127,7 +127,17 @@ footer {
    ========================= */
 
 @media (max-width: 768px) {
+  
+   body {
+      padding: 20px;
+   }
+   
+   h1 {
+      font-size: 36px;
+   }
+   
    .services {
       flex-direction: column;
    }
+
 }
