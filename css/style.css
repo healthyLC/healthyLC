@@ -1,31 +1,74 @@
+/* =========================
+   HEALTHY LC VISUAL IDENTITY
+   ========================= */
+
+:root {
+    -forest: #294936;
+    -sage: #7a9b76;
+    -earth: #c99a6b;
+    -cream: #f5f1e8;
+    -charcoal: #26312b;
+    -white: #ffffff;
+}
+
+
+/* =========================
+   GENERAL PAGE STYLES
+   ========================= */
+
 body {
     font-family: Arial, sans-serif;
-    background-color: #f5f1e8;
+    background-color: var(-cream);
+    color: var(-charcoal);
     margin: 0;
     padding: 40px;
 }
 
+
+/* =========================
+   HEADINGS
+   ========================= */
+
 h1 {
     font-size: 48px;
     text-align: center;
+    color: var(-forest);
 }
 
+h2 {
+    color: var(-forest);
+}
+
+h3 {
+    color: var(-forest);
+}
+
+
+/* =========================
+   MAIN SECTIONS
+   ========================= */
+
 section {
-    max-width: 800px;
+    max-width: 900px;
     margin: 60px auto;
 }
 
-footer {
-    text-align: center;
-    margin-top: 80px;
+
+/* =========================
+   SERVICES
+   ========================= */
+
+.services {
+    display: flex;
+    gap: 20px;
 }
 
 .service-card {
-    background-color: white;
+    background-color: var(-white);
     padding: 30px;
     margin: 20px 0;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    border-radius: 14px;
+    box-shadow: 0 4px 12px rgba(38, 49, 43, 0.08);
 }
 
 .service-card h3 {
@@ -33,7 +76,12 @@ footer {
     margin-top: 0;
 }
 
-.services {
-    display: flex;
-    gap: 20px;
+
+/* =========================
+   FOOTER
+   ========================= */
+
+footer {
+    text-align: center;
+    margin-top: 80px;
 }
