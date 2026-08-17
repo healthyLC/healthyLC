@@ -19,3 +19,10 @@ footer {
     text-align: center;
     margin-top: 80px;
 }
+
+.service-card {
+    background-color: white;
+    padding: 30px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
