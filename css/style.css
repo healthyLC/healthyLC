@@ -71,6 +71,12 @@ header {
    text-align: center;
 }
 
+.hero-statement {
+   font-size: 28px;
+   font-weight: bold;
+   color: var(coastal);
+   margin-bottom: 20px;
+}
 
 /* =========================
    MAIN SECTIONS
