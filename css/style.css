@@ -5,7 +5,7 @@
 :root {
     --forest: #294936;
     --sage: #7a9b76;
-    --coastal: #4f7c82;
+    --coastal: #397B7A;
     --golden: #d6a84f;
     --cream: #f5f1e8;
     --charcoal: #26312b;
@@ -66,8 +66,8 @@ header p {
 }
 
 header {
-   max-width: 900px;
-   margin: 60px auto 100px;
+   max-width: 800px;
+   margin: 80px auto 120px;
    text-align: center;
 }
 
