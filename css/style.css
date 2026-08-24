@@ -42,15 +42,19 @@ h1 {
 }
 
 h2 {
+    font-size: 40px;
+    text-align: center;
     color: var(--forest);
 }
 
 h3 {
+    font-size: 32px;
     color: var(--forest);
 }
 
 h4 {
-    color: var(--forest);
+    font-size: 28px;
+   color: var(--forest);
 }
 
 header p {
