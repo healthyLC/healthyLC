@@ -155,6 +155,44 @@ section {
 }
 
 /* =========================
+   MY APPROACH
+   ========================= */
+
+#approach {
+    text-align: center;
+}
+
+.section-intro {
+    max-width: 650px;
+    margin: 0 auto 40px;
+    font-size: 18px;
+}
+
+.approach-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.approach-card {
+    background-color: var(--white);
+    padding: 30px;
+    border-radius: 14px;
+    box-shadow: 0 4px 12px rgba(38, 49, 43, 0.08);
+}
+
+.approach-card h3 {
+    color: var(--forest);
+}
+
+.approach-philosophy {
+    margin-top: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--golden);
+}
+
+/* =========================
    NAVIGATION
    ========================= */
 
@@ -206,6 +244,10 @@ footer {
 @media (max-width: 768px) {
 
    .audience-grid {
+    grid-template-columns: 1fr;
+}
+
+   .approach-grid {
     grid-template-columns: 1fr;
 }
   
