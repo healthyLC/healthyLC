@@ -175,4 +175,14 @@ footer {
       flex-direction: column;
    }
 
+   .navbar {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 }
