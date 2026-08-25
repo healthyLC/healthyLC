@@ -203,8 +203,12 @@ section {
 }
 
 .about-content {
-    max-width: 750px;
+    max-width: 1000px;
     margin: 0 auto;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 40 px;
+   align-items: center;
 }
 
 .about-text {
@@ -224,6 +228,7 @@ section {
    max-width: 400px;
     border-radius: 14px;
     display: block;
+   margin: 0 auto;
 }
 
 /* =========================
@@ -300,6 +305,10 @@ footer {
    .about-text {
     padding: 25px;
 }
+
+   .about-content { 
+      grid-template-columns: 1fr;
+   }
 
    .navbar {
     flex-direction: column;
