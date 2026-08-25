@@ -219,6 +219,12 @@ section {
     font-size: 28px;
 }
 
+.about-image img {
+    width: 100%;
+    border-radius: 14px;
+    display: block;
+}
+
 /* =========================
    NAVIGATION
    ========================= */
