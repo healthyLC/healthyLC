@@ -92,6 +92,11 @@ section {
    SERVICES
    ========================= */
 
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
 .services {
     display: flex;
     gap: 20px;
@@ -107,9 +112,17 @@ section {
 }
 
 .service-card h3 {
+   color: var(--forest)
     font-size: 28px;
     margin-top: 0;
 }
+
+.service-link {
+   display: inline-block;
+   margin-top: 15px;
+   color: var(--coastal);
+   font-weight: bold;
+   text-decoration: none;
 
 .cta-button {
    display: inline-block;
@@ -300,6 +313,10 @@ footer {
    
    .services {
       flex-direction: column;
+   }
+
+   .services-grid {
+      grid-template-columns: 1fr;
    }
 
    .about-text {
