@@ -198,7 +198,8 @@ section {
    ========================= */
 
 #about {
-    text-align: center;
+   max-width: 900px;
+   margin: 0 auto;
 }
 
 .about-content {
@@ -207,7 +208,7 @@ section {
 }
 
 .about-text {
-    background-color: var(--white);
+    background-color: var(--sage);
     padding: 40px;
     border-radius: 14px;
     box-shadow: 0 4px 12px rgba(38, 49, 43, 0.08);
