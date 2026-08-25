@@ -98,6 +98,11 @@ section {
     gap: 25px;
 }
 
+.services {
+   display: flex;
+   gap:20px;
+}
+
 .service-card {
     background-color: var(--white);
     padding: 30px;
