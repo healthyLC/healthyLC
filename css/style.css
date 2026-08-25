@@ -289,6 +289,10 @@ footer {
       flex-direction: column;
    }
 
+   .about-text {
+    padding: 25px;
+}
+
    .navbar {
     flex-direction: column;
     gap: 20px;
