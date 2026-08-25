@@ -97,10 +97,6 @@ section {
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;
 }
-.services {
-    display: flex;
-    gap: 20px;
-}
 
 .service-card {
     background-color: var(--white);
