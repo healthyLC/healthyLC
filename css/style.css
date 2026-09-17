@@ -305,7 +305,7 @@ section {
 }
 
 .contact-card:hover {
-   transform: translateY(-4);
+   transform: translateY(-4px);
 }
 
 .contact-card h3 {
