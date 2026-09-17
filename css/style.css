@@ -304,11 +304,11 @@ section {
 }
 
 .contact-card {
-   transition: transform 0.2 ease;
+   transition: transform 0.2s ease;
 }
 
 .contact-card:hover {
-   transform: translateY(-20px);
+   transform: translateY(-50px);
 }
 
 .contact-card h3 {
