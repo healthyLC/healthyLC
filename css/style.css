@@ -301,6 +301,11 @@ section {
     padding: 30px;
     border-radius: 14px;
     box-shadow: 0 4px 12px rgba(38, 49, 43, 0.08);
+   transition: transform 0.2s ease;
+}
+
+.contact-card:hover {
+   transform: translateY(-4);
 }
 
 .contact-card h3 {
