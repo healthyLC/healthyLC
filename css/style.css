@@ -478,5 +478,9 @@ footer {
       font-size: 32px;
    }
 
+   .articles-grid {
+      grid-template-columns: 1fr; 
+   }
+
 
 }
