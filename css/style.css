@@ -283,6 +283,52 @@ section {
 }
 
 /* =========================
+   LATEST FROM HEALTHY LC
+   ========================= */
+
+#articles {
+    text-align: center;
+}
+
+.articles-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.article-preview {
+    text-align: left;
+    padding: 20px 0;
+    border-top: 4px solid var(--sage);
+}
+
+.article-category {
+    color: var(--coastal);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.article-preview h3 {
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+.article-link {
+    display: inline-block;
+    margin-top: 15px;
+    color: var(--forest);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.article-link:hover {
+    color: var(--coastal);
+}
+
+/* =========================
    NAVIGATION
    ========================= */
 
