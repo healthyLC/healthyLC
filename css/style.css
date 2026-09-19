@@ -428,5 +428,9 @@ footer {
       url("../images/healthy.lifestyle.jpg")
                       }
 
+   .banner-content h2 {
+      font-size: 32px;
+   }
+
 
 }
