@@ -300,7 +300,7 @@ section {
 .article-preview {
     text-align: left;
     padding: 20px 0;
-    border-top: 4px solid var(--sage);
+    border-top: 4px solid var(--golden);
 }
 
 .article-category {
