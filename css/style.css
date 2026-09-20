@@ -193,7 +193,7 @@ section {
     background-color: var(--white);
     padding: 30px;
     border-radius: 14px;
-    border-left: 5px solid var(--sage);
+    border-left: 5px solid var(--golden);
 }
 
 #who {
@@ -421,18 +421,37 @@ section {
     line-height: 1.15;
 }
 
+.full-article h2 {
+    text-align: left;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
 .article-intro {
     font-size: 22px;
     line-height: 1.6;
-    color: var(--golden);
+    color: var(--coastal);
     margin-bottom: 40px;
    font-weight: bold;
+}
+
+ .article-closing {
+    margin-top: 50px;
+    padding: 25px 0;
+    border-top: 4px solid var(--golden);
+    border-bottom: 4px solid var(--golden);
+    font-size: 24px !important;
+    font-weight: bold;
+    color: var(--forest);
 }
 
 .full-article > p:not(.article-category):not(.article-intro) {
     font-size: 18px;
     line-height: 1.8;
 }
+
+ 
 
 /* =========================
    FOOTER
@@ -498,8 +517,8 @@ footer {
 
 .lifestyle-banner {
    background-image: 
-      linear-gradient(rgba(55, 79, 47, 0.65), rgba(55, 79, 47, 0.65)
-      url("../images/healthy.lifestyle.jpg")
+      linear-gradient(rgba(55, 79, 47, 0.65), rgba(55, 79, 47, 0.65)),
+      url("../images/healthy.lifestyle.jpg");
                       }
 
    .banner-content h2 {
@@ -514,25 +533,10 @@ footer {
       font-size: 34px;
    }
 
-   .full-article h2 {
-    text-align: left;
-    font-size: 30px;
-    margin-top: 50px;
-    margin-bottom: 20px;
-}
-
    .article-intro {
       font-size: 20px;
    }
 
-   .article-closing {
-    margin-top: 50px;
-    padding: 25px 0;
-    border-top: 4px solid var(--golden);
-    border-bottom: 4px solid var(--golden);
-    font-size: 24px !important;
-    font-weight: bold;
-    color: var(--forest);
-}
+  
 
 }
