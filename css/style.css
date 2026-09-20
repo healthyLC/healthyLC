@@ -407,6 +407,33 @@ section {
 }
 
 /* =========================
+   FULL ARTICLES
+   ========================= */
+
+.full-article {
+    max-width: 750px;
+    margin: 60px auto;
+}
+
+.full-article h1 {
+    text-align: left;
+    font-size: 46px;
+    line-height: 1.15;
+}
+
+.article-intro {
+    font-size: 22px;
+    line-height: 1.6;
+    color: var(--coastal);
+    margin-bottom: 40px;
+}
+
+.full-article > p:not(.article-category):not(.article-intro) {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+/* =========================
    FOOTER
    ========================= */
 
@@ -482,5 +509,12 @@ footer {
       grid-template-columns: 1fr; 
    }
 
+   .full-article h1 {
+      font-size: 34px;
+   }
+
+   .article-intro {
+      font-size: 20px;
+   }
 
 }
