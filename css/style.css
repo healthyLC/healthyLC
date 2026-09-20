@@ -426,6 +426,7 @@ section {
     line-height: 1.6;
     color: var(--golden);
     margin-bottom: 40px;
+   font-weight: bold;
 }
 
 .full-article > p:not(.article-category):not(.article-intro) {
