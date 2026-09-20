@@ -1,1 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Healthy Eating Doesn't Have to Be Perfect | Healthy LC</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+
+        <a href="../index.html" class="logo">Healthy LC</a>
+
+        <div class="nav-links">
+            <a href="../index.html">Home</a>
+            <a href="../index.html#services">Services</a>
+            <a href="../index.html#approach">My Approach</a>
+            <a href="../index.html#about">About</a>
+            <a href="../index.html#articles">Articles</a>
+            <a href="../index.html#contact">Contact</a>
+        </div>
+
+    </nav>
+
+    <main>
+
+        <article class="full-article">
+
+            <p class="article-category">Nutrition</p>
+
+            <h1>Healthy Eating Doesn't Have to Be Perfect</h1>
+
+            <p class="article-intro">
+                A balanced approach to nutrition that leaves room
+                for real life, enjoyment and the foods you love.
+            </p>
+
+            <p>
+                Your article will go here.
+            </p>
+
+            <a href="../index.html#articles" class="article-link">
+                ← Back to Latest from Healthy LC
+            </a>
+
+        </article>
+
+    </main>
+
+    <footer>
+        <p>Healthy LC</p>
+    </footer>
+
+</body>
+
+</html>
