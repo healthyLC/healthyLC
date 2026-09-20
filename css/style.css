@@ -451,6 +451,25 @@ section {
     line-height: 1.8;
 }
 
+.article-cta {
+    margin-top: 60px;
+    padding: 40px;
+    background-color: var(--sage);
+    border-radius: 14px;
+    text-align: center;
+}
+
+.article-cta h2 {
+    text-align: center;
+    margin-top: 0;
+}
+
+.article-cta p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 550px;
+    margin: 0 auto;
+}
  
 
 /* =========================
