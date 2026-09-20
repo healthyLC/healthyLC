@@ -513,8 +513,25 @@ footer {
       font-size: 34px;
    }
 
+   .full-article h2 {
+    text-align: left;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
    .article-intro {
       font-size: 20px;
    }
+
+   .article-closing {
+    margin-top: 50px;
+    padding: 25px 0;
+    border-top: 4px solid var(--golden);
+    border-bottom: 4px solid var(--golden);
+    font-size: 24px !important;
+    font-weight: bold;
+    color: var(--forest);
+}
 
 }
