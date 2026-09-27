@@ -470,6 +470,64 @@ section {
     max-width: 550px;
     margin: 0 auto;
 }
+
+/* =========================
+   SERVICE PAGES
+   ========================= */
+
+.service-page {
+    max-width: 800px;
+    margin: 60px auto;
+}
+
+.service-category {
+    color: var(--coastal);
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.service-page h1 {
+    font-size: 48px;
+    line-height: 1.15;
+    margin-bottom: 20px;
+}
+
+.service-intro {
+    max-width: 650px;
+    margin: 0 auto 60px;
+    text-align: center;
+    font-size: 22px;
+    line-height: 1.6;
+    font-weight: bold;
+    color: var(--coastal);
+}
+
+.service-page h2 {
+    text-align: left;
+    font-size: 30px;
+    margin-top: 55px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    border-top: 4px solid var(--golden);
+}
+
+.service-page p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.service-actions {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.service-actions .cta-button {
+    margin-top: 0;
+}
  
 
 /* =========================
@@ -577,6 +635,36 @@ h3 {
    .article-intro {
       font-size: 20px;
    }
+
+   .service-page {
+    margin: 40px auto;
+}
+
+.service-page h1 {
+    font-size: 36px;
+}
+
+.service-intro {
+    font-size: 20px;
+    margin-bottom: 45px;
+}
+
+.service-page h2 {
+    font-size: 28px;
+    margin-top: 40px;
+}
+
+.service-page p {
+    font-size: 17px;
+}
+
+.service-actions {
+    flex-direction: column;
+}
+
+.service-actions .cta-button {
+    text-align: center;
+}
 
   
 
